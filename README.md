@@ -25,7 +25,7 @@ https://github.com/supunabeywickrama/Kidney-Disease-Classification-MLflow-DVC
 ### STEP 01- Create a conda environment after opening the repository
 
 ```bash
-conda create -n cnncls python=3.8 -y
+conda create -n cnncls python=3.9 -y
 ```
 
 ```bash

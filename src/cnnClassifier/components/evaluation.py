@@ -1,6 +1,6 @@
 import tensorflow as tf
 import mlflow
-import mlflow.keras
+import mlflow.tensorflow
 from urllib.parse import urlparse
 from pathlib import Path
 from cnnClassifier.entity.config_entity import EvaluationConfig
@@ -69,6 +69,6 @@ class Evaluation:
                 # There are other ways to use the Model Registry, which depends on the use case,
                 # please refer to the doc for more information:
                 # https://mlflow.org/docs/latest/model-registry.html#api-workflow
-                mlflow.keras.log_model(self.model, "model", registered_model_name="VGG16Model")
+                mlflow.tensorflow.log_model(self.model, "model", registered_model_name="VGG16Model")
             else:
-                mlflow.keras.log_model(self.model, "model")
+                mlflow.tensorflow.log_model(self.model, "model")
