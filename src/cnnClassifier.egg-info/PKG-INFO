@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: cnnClassifier
+Version: 0.0.0
+Summary: A Machine Learning project for classifying kidney disease using CNN, MLflow, and DVC.
+Home-page: https://github.com/SUPUN THARAKA/Kidney-Disease-Classification-MLflow-DVC
+Author: SUPUN THARAKA
+Author-email: supuun2001@gmail.com
+Project-URL: Bug Tracker, https://github.com/SUPUN THARAKA/Kidney-Disease-Classification-MLflow-DVC/issues
+Description-Content-Type: text/markdown
+
+# Kidney-Disease-Classification-MLflow-DVC

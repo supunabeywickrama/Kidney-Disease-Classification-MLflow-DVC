@@ -1,1 +1,28 @@
-impo
+import setuptools
+
+with open("README.md", "r", encoding="utf-8") as f:
+    long_description = f.read()
+
+_version_ = "0.0.0"    
+
+REPO_NAME = "Kidney-Disease-Classification-MLflow-DVC"
+AUTHOR_USER_NAME = "SUPUN THARAKA"
+SRC_REPO = "cnnClassifier"
+AUTHOR_EMAIL = "supuun2001@gmail.com"
+
+setuptools.setup(
+    name=SRC_REPO,
+    version=_version_,
+    author=AUTHOR_USER_NAME,
+    author_email=AUTHOR_EMAIL,
+    description="A Machine Learning project for classifying kidney disease using CNN, MLflow, and DVC.",
+    long_description=long_description,
+    long_description_content_type="text/markdown",
+    url=f"https://github.com/{AUTHOR_USER_NAME}/{REPO_NAME}",
+    project_urls={
+        "Bug Tracker": f"https://github.com/{AUTHOR_USER_NAME}/{REPO_NAME}/issues"
+    },
+    package_dir={"": "src"},
+    packages=setuptools.find_packages(where="src")
+)
+
